@@ -40,11 +40,12 @@ header a.title {
 }
 
 .navmenu a,
-.navmenu a:focus {
+.navmenu a:focus,
+.navmenu a:hover {
     color: rgb(72, 86, 100);
     font-size: 15px;
     padding: 0 2px;
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,7 +69,7 @@ header a.title {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: rgb(72, 86, 100);
+    background-color: rgb(37 167 150);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -108,12 +109,7 @@ footer {
 #featured-3 .feature-item .feature-icon {
     margin-bottom: 10px;
     text-align: center;
-}
-
-#featured-3 .feature-item .icon i {
-    color: green;
-    font-size: 36px;
-    transition: 0.3s;
+    color: rgb(37 167 150);
 }
 
 #featured-3 .feature-item h4 {
