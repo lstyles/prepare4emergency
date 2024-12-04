@@ -10,6 +10,11 @@ body {
     background-color: #ffda00;
 }
 
+#hero.hero-small {
+    padding: 40px;
+    text-align: left;
+}
+
 header a.title {
     color: rgb(72, 86, 100);
 }
