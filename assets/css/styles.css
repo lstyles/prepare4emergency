@@ -19,6 +19,10 @@ header a.title {
     color: rgb(72, 86, 100);
 }
 
+header .sitename-logo {
+    color: rgb(37 167 150);
+}
+
 .navmenu {
     padding: 0;
 }
