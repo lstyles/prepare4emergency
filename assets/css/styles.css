@@ -105,8 +105,9 @@ footer {
     height: 100%;
 }
 
-#featured-3 .feature-item .icon {
+#featured-3 .feature-item .feature-icon {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #featured-3 .feature-item .icon i {
@@ -123,6 +124,12 @@ footer {
 
 .feature a {
     color: rgb(33, 37, 41);
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+}
+
+footer a {
+    color: #fff;
     transition: ease-in-out 0.3s;
     text-decoration: none;
 }
