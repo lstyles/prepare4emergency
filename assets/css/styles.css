@@ -163,9 +163,20 @@ footer a {
 }
 
 img.image-right {
-    float: right;
-    max-width: 250px;
-    margin-left: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    img.image-right {
+        float: right;
+        max-width: 250px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 #threats p {
