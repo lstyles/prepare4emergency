@@ -164,7 +164,8 @@ footer a {
 
 img.image-right {
     float: right;
-    max-width: 400px;
+    max-width: 250px;
+    margin-left: 30px;
 }
 
 #threats p {
