@@ -161,3 +161,17 @@ footer a {
         padding-bottom: 5px;
     }
 }
+
+img.image-right {
+    float: right;
+    max-width: 400px;
+}
+
+#threats p {
+    overflow: hidden;
+}
+
+#threats h4 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
