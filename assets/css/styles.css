@@ -190,8 +190,19 @@ img.image-right {
 
 .card-title {
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+#prepare .card:hover {
+    transform: translateY(-5px);
+    background-color: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+}
+
+#prepare .card .card-body {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
